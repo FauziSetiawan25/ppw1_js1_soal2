@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 2</title>
+</head>
+<body>
+    <div id="inner"></div>
+    <script>
+        alert("Jangan buka consele");
+        document.write("<p>Nanti kamu <b>menyesal</b></p>");
+
+        var dalem = document.getElementById("inner");
+        dalem.innerHTML = "<h1>Serius jangan dibuka</h1>"
+
+        let date = new Date();
+        let dayNames = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+        let dayName = dayNames[date.getDay()];
+        console.log("Hari ini adalah: " + dayName);
+    </script>
+</body>
+</html>
